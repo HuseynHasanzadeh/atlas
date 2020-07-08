@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*=================================================================== HEADER========================================================= */
+/* En bashda stil verecem li ul ve geri qalan shapkalara hamisi burada olacaq */
+#nav_bars {
+  width: 100%;
+
+  display: flex;
+  padding-top: 12px;
+  /* align-items: center; */
+  /* position: fixed; */
+}
+
+.menu_list {
+  display: flex;
+  justify-content: space-around;
+}
+.menu_list ul {
+  list-style: none;
+}
+
+.menu_list ul li {
+  display: inline;
+  /* margin-right: 6px; */
+}
+.menu_list ul li a {
+  color: #333333;
+  text-decoration: none;
+  padding: 10px;
+  letter-spacing: 0.2px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.nav-home:hover {
+  border-bottom: 2px solid #000;
+}
+.nav-news:hover {
+  border-bottom: 2px solid red;
+}
+.nav-sport:hover {
+  border-bottom: 2px solid yellow;
+}
+.nav-reel:hover {
+  border-bottom: 2px solid rgb(77, 77, 247);
+}
+.nav-worklife:hover {
+  border-bottom: 2px solid blue;
+}
+.nav-travel:hover {
+  border-bottom: 2px solid rgb(36, 122, 36);
+}
+.nav-future:hover {
+  border-bottom: 2px solid rgb(0, 40, 86);
+}
+.nav-culture:hover {
+  border-bottom: 2px solid rgb(72, 40, 120);
+}
+.nav-more:hover {
+  border-bottom: 2px solid #000;
+}
+
+.form_navs input {
+  padding-left: 5px;
+  color: #000;
+  outline: none;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: rgb(197, 196, 196);
+}
+.container-fluid {
+  background-color: #bb1919;
+  height: 95px;
+}
+.container-fluid h2 {
+  letter-spacing: 1px;
+  color: #fff;
+  font-size: 46px;
+  font-weight: 400;
+}
+.navs_categories ul li {
+  display: inline-block;
+  list-style: none;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  margin-right: 5px;
+}
+.navs_categories ul li a {
+  color: white;
+  text-decoration: none;
+}
+.navs_categories ul li a:hover {
+  border-bottom: 4px solid #fff;
+}
+/*========================================================================== FIRST SECTION  TOP VIDEO STORIES=============================================
+  ============================================================================================================================================== */
+.head_tittle {
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+.head_tittle a {
+  color: black;
+}
+.head_tittle a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid rgb(185, 9, 9);
+  color: black;
+}
+iframe {
+  border: none;
+}
+.video_box {
+  width: 220px;
+}
+.text_info a {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+.fa-clock-o {
+  color: grey;
+}
+.hour {
+  padding-left: 5px;
+  color: grey;
+  font-weight: 400;
+  font-size: 14px;
+}
+.s {
+  border: 2px red solid;
+}
+.head_text {
+  font-size: 20px;
+  font-weight: 700;
+}
+.text_info {
+  font-size: 15px;
+  font-weight: 480;
+  letter-spacing: 0.2px;
+  color: rgb(66, 65, 65);
+}
+.social_box ul {
+  list-style: none;
+}
+.social_box li {
+  display: inline-block;
+  margin-left: 5px;
+  width: 50px;
+  height: 50px;
+}
+.messenger i {
+  padding-left: 12px;
+  padding-top: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  cursor: pointer;
+  color: #0084ff;
+  transition: 0.2s ease;
+}
+
+.social_box li i:hover {
+  color: #fff;
+}
+.messenger:hover {
+  background-color: #0084ff;
+  color: #fff;
+}
+.facebook i {
+    padding-left: 16px;
+    padding-top: 12px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #3C599B;
+    transition: 0.2s ease;
+  }
+  
+  .social_box li i:hover {
+    color: #fff;
+  }
+  .facebook:hover {
+    background-color: #3C599B;
+    color: #fff;
+  }
+  .twitter i {
+    padding-left: 12px;
+    padding-top: 12px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #1DA1F2;
+    transition: 0.2s ease;
+  }
+  
+  .social_box li i:hover {
+    color: #fff;
+  }
+  .twitter:hover {
+    background-color: #1DA1F2;
+    color: #fff;
+  }
+  .mail i {
+    padding-left: 12px;
+    padding-top: 12px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #615F5D;
+    transition: 0.2s ease;
+  }
+  
+  .social_box li i:hover {
+    color: #fff;
+  }
+  .mail:hover {
+    background-color: #615F5D;
+    color: #fff;
+  }
+  .social_box li i:hover {
+    color: #fff;
+  }
+  .share:hover {
+    background-color: #1DA1F2;
+    color: #fff;
+  }
+  .share i {
+    padding-left: 12px;
+    padding-top: 12px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #0B8A0B;
+    transition: 0.2s ease;
+  }
+  
+  .social_box li i:hover {
+    color: #fff;
+  }
+  .share:hover {
+    background-color: #0B8A0B;
+    color: #fff;
+  }
+  .mini_categ{
+      font-weight: 700;
+      color: #404040;
+  }
+  .mini_categ span{
+      font-weight: 400;
+  }
+  .img_box{
+      width: 220px;
+  }
+  .img_info a{
+      color: black;
+      font-weight: 500;
+  }
+  /* ================================================================================================================================= 
+      =======================================================================SECTION Must SEE================================================
+    ============================================================================================================================ */
+    .must_h{
+        background-color: black;
+    }
+    .must_info a{
+        color: black;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    /* ================================================================================================================================= 
+      =======================================================================SECTION More from BBC Reel================================================
+    ============================================================================================================================ */
+    .more_h{
+        background-color: black;
+    }
+    .more_info a{
+        color: black;
+        font-weight: 600;
+        font-size: 14px;
+    }
+/* ================================================================================================================================= 
+      =======================================================================SECTION More from BBC Reel================================================
+    ============================================================================================================================ */
+
+    .number {
+        color: rgb(187, 25, 25);
+        font-size: 45px;
+        padding-right: 15px;
+      }
+      .card_most a {
+        color: #000;
+        top: -10px;
+        font-weight: 600;
+        font-size: 18px;
+        position: relative;
+        letter-spacing: 0.3px;
+      }
+      .card_most li {
+        list-style: none;
+      }
+      .card_most {
+        padding: 5px;
+      }
+      /* ================================================================================================================================= 
+      =======================================================================SECTIONE Can trust================================================
+    ============================================================================================================================ */
+    #can_trust{
+        background-color: #F2EFEC;
+        padding: 25px;
+        margin-top: 15px;
+    }
+    .head_why a{
+        color: black;
+        padding-left: 5px;
+        font-size: 19px;
+        font-weight: 500;
+    }
+    .head_why i{
+        font-size: 20px;
+    }
+    /*===========================================FOOOOOTTTTTTTEEEEEERRR============================================================================================
+  ========================================================================================================================================== */
+  footer{
+    background-color: #4C4C4C;
+  }
+  .head_footer{
+    color: white;
+    padding-top: 20px;
+  }
+  .div_col a{
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .div_col a:hover{
+    color: white;
+  }
+  hr{
+    background-color: white;
+    font-weight: 100;
+  }
+  .list_footer{
+  list-style: none;
+  display: inline-flex;
+  }
+  .list_footer a{
+  color: white;
+  margin-right: 9px;
+  font-size: 13px;
+  }
+  .list_footer a:hover{
+    color: white;
+    }
+    footer p{
+      color: white;
+      font-size: 14px;
+  
+    }
+    footer p span{
+      color: white;
+      font-weight: 500;
+      font-size: 14px;
+    }

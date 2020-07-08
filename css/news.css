@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /*=================================================================== HEADER========================================================= */
+  /* En bashda stil verecem li ul ve geri qalan shapkalara hamisi burada olacaq */
+  #nav_bars {
+    width: 100%;
+  
+    display: flex;
+    padding-top: 12px;
+    /* align-items: center; */
+    /* position: fixed; */
+  }
+  
+  .menu_list {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu_list ul {
+    list-style: none;
+  }
+  
+  .menu_list ul li {
+    display: inline;
+    /* margin-right: 6px; */
+  }
+  .menu_list ul li a {
+    color: #333333;
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .nav-home:hover {
+    border-bottom: 2px solid #000;
+  }
+  .nav-news:hover {
+    border-bottom: 2px solid red;
+  }
+  .nav-sport:hover {
+    border-bottom: 2px solid yellow;
+  }
+  .nav-reel:hover {
+    border-bottom: 2px solid rgb(77, 77, 247);
+  }
+  .nav-worklife:hover {
+    border-bottom: 2px solid blue;
+  }
+  .nav-travel:hover {
+    border-bottom: 2px solid rgb(36, 122, 36);
+  }
+  .nav-future:hover {
+    border-bottom: 2px solid rgb(0, 40, 86);
+  }
+  .nav-culture:hover {
+    border-bottom: 2px solid rgb(72, 40, 120);
+  }
+  .nav-more:hover {
+    border-bottom: 2px solid #000;
+  }
+  
+  .form_navs input {
+    padding-left: 5px;
+    color: #000;
+    outline: none;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: rgb(197, 196, 196);
+  }
+  .container-fluid {
+    background-color: #bb1919;
+    height: 95px;
+  }
+  .container-fluid h2 {
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 46px;
+    font-weight: 400;
+  }
+  .navs_categories ul li {
+    display: inline-block;
+    list-style: none;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    margin-right: 5px;
+  }
+  .navs_categories ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .navs_categories ul li a:hover {
+    border-bottom: 4px solid #fff;
+  }
+  /* ======================================================================================================================================
+  ===========================================SECTION ONE============================================================================================
+  ========================================================================================================================================== */
+  .card_news iframe {
+    border: none;
+  }
+  
+  .card_news {
+    padding: 5px;
+  }
+  .card_text {
+    color: grey;
+  }
+  .card_body a {
+    color: #000;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  .card_body i {
+    color: grey;
+    font-size: 12px;
+  }
+  .hour {
+    color: grey;
+    padding-left: 3px;
+    font-size: 13px;
+  }
+  .card_body span a {
+    font-size: 13px;
+    padding-left: 10px;
+  }
+  
+  /* ======================================================================================================================================
+  ===========================================SECTION SECOND============================================================================================
+  ========================================================================================================================================== */
+  .card_iframe a {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+  }
+  .card_iframe {
+    padding: 2px;
+  }
+  .card_iframe iframe {
+    border: none;
+  }
+  
+  .card_body_must {
+    padding: 5px;
+    position: relative;
+  }
+  
+  .card_body_must a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .line {
+    background-color: #000;
+  }
+  .head_second {
+    font-weight: 600;
+  }
+  /*===========================================SECTION THIRD============================================================================================
+  ========================================================================================================================================== */
+  .number {
+    color: rgb(187, 25, 25);
+    font-size: 45px;
+    padding-right: 15px;
+  }
+  .card_most a {
+    color: #000;
+    top: -10px;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    letter-spacing: 0.3px;
+  }
+  .card_most li {
+    list-style: none;
+  }
+  .card_most {
+    padding: 5px;
+  }
+  /*===========================================SECTION Fourth============================================================================================
+  ========================================================================================================================================== */
+  
+  /*===========================================SECTION Fifth============================================================================================
+  ========================================================================================================================================== */
+  h3 a {
+    color: #000;
+  }
+  .long_reads a{
+  color: black;
+  font-weight: 700;
+  }
+  /*===========================================SECTION Sixth============================================================================================
+  ========================================================================================================================================== */
+  
+  /*===========================================SECTION Seventh============================================================================================
+  ========================================================================================================================================== */
+  .seventh a {
+    font-weight: 350;
+    font-size: 14px;
+  }
+  /*===========================================SECTION Eighth============================================================================================
+  ========================================================================================================================================== */
+  
+  /*===========================================SECTION Ninth============================================================================================
+  ========================================================================================================================================== */
+  .twitter i {
+    font-size: 35px;
+    padding: 15px;
+    color: rgb(55, 215, 243);
+  }
+  
+  .twitter i:hover {
+    background-color: rgb(55, 215, 243);
+    color: #fff;
+    cursor: pointer;
+    width: 60px;
+    border-radius: 8px;
+    height: 60px;
+    transition: 0.3s ease-in-out;
+  }
+  .facebook i{
+    font-size: 35px;
+    padding: 15px 20px;
+    color: rgb(14, 10, 240);
+  }
+  .facebook i:hover {
+    background-color:rgb(14, 10, 240);
+    color: #fff;
+    cursor: pointer;
+    width: 60px;
+    border-radius: 8px;
+    height: 60px;
+    transition: 0.3s ease-in-out;
+  }
+  .instagram i{
+    font-size: 35px;
+    padding: 15px 15px;
+    color: #D93175;
+  }
+  
+  .instagram i:hover {
+    background-color:#D93175;
+    color: #fff;
+    cursor: pointer;
+    width: 60px;
+    border-radius: 8px;
+    height: 60px;
+    transition: 0.3s ease-in-out;
+  }
+  .news_daily h5{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+  }
+  .news_daily i{
+    font-size: 25px;
+    color: rgb(99, 97, 97);
+  }
+  .news_daily h5 span{
+    font-weight: 300;
+    letter-spacing: 0.2px;
+  }
+  .news_daily a{
+   color: black;
+   font-size: 14px;
+   font-weight: 600;
+  }
+  .news_app h5{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+  }
+  .news_app i{
+    font-size: 21px;
+    color: rgb(99, 97, 97);
+  }
+  .news_app a{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .news_app h5 span{
+    font-weight: 300;
+    letter-spacing: 0.2px;
+  }
+  .news_info{
+    font-size: 14px;
+  }
+  .news_info a{
+    color: black;
+    font-weight: 600;
+  }
+  .news_info span{
+    font-weight: 600;
+  }
+  /*===========================================FOOOOOTTTTTTTEEEEEERRR============================================================================================
+  ========================================================================================================================================== */
+  footer{
+    background-color: #4C4C4C;
+  }
+  .head_footer{
+    color: white;
+    padding-top: 20px;
+  }
+  .div_col a{
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .div_col a:hover{
+    color: white;
+  }
+  hr{
+    background-color: white;
+    font-weight: 100;
+  }
+  .list_footer{
+  list-style: none;
+  display: inline-flex;
+  }
+  .list_footer a{
+  color: white;
+  margin-right: 9px;
+  font-size: 13px;
+  }
+  .list_footer a:hover{
+    color: white;
+    }
+    footer p{
+      color: white;
+      font-size: 14px;
+  
+    }
+    footer p span{
+      color: white;
+      font-weight: 500;
+      font-size: 14px;
+    }
