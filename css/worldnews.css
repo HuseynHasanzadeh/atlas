@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /*=================================================================== HEADER========================================================= */
+  /* En bashda stil verecem li ul ve geri qalan shapkalara hamisi burada olacaq */
+  #nav_bars {
+    width: 100%;
+  
+    display: flex;
+    padding-top: 12px;
+    /* align-items: center; */
+    /* position: fixed; */
+  }
+  
+  .menu_list {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu_list ul {
+    list-style: none;
+  }
+  
+  .menu_list ul li {
+    display: inline;
+    /* margin-right: 6px; */
+  }
+  .menu_list ul li a {
+    color: #333333;
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .nav-home:hover {
+    border-bottom: 2px solid #000;
+  }
+  .nav-news:hover {
+    border-bottom: 2px solid red;
+  }
+  .nav-sport:hover {
+    border-bottom: 2px solid yellow;
+  }
+  .nav-reel:hover {
+    border-bottom: 2px solid rgb(77, 77, 247);
+  }
+  .nav-worklife:hover {
+    border-bottom: 2px solid blue;
+  }
+  .nav-travel:hover {
+    border-bottom: 2px solid rgb(36, 122, 36);
+  }
+  .nav-future:hover {
+    border-bottom: 2px solid rgb(0, 40, 86);
+  }
+  .nav-culture:hover {
+    border-bottom: 2px solid rgb(72, 40, 120);
+  }
+  .nav-more:hover {
+    border-bottom: 2px solid #000;
+  }
+  
+  .form_navs input {
+    padding-left: 5px;
+    color: #000;
+    outline: none;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: rgb(197, 196, 196);
+  }
+  .container-fluid {
+    background-color: #bb1919;
+    height: 95px;
+  }
+  .container-fluid h2 {
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 46px;
+    font-weight: 400;
+  }
+  .navs_categories ul li {
+    display: inline-block;
+    list-style: none;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    margin-right: 5px;
+  }
+  .navs_categories ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .navs_categories ul li a:hover {
+    border-bottom: 4px solid #fff;
+  }
+   /*===========================================Main============================================================================================
+    ========================================================================================================================================== */
+    h5{
+      border-bottom: 3px solid #bb1919;
+      color: #404040;
+      display: inline-block;
+      padding-top: 8px;
+      width: auto;
+    }
+    .video iframe{
+      border: none;
+    }
+    
+    .text{
+      background-color: #EDEDED;
+      height: 280px;
+      padding: 20px;
+    }
+    .text_main a{
+      color: black;
+      font-weight: 700;
+      font-size: 30px;
+    }
+    .text_main a:hover{
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 30px;
+    }
+    .text_main span{
+      font-size: 14px;
+      letter-spacing: 0.3px;
+      font-weight: 400;
+    }
+    .hour{
+      margin-left: 5px;
+      color: #5A5A98;
+    }
+    .text_main i{
+      color: #5A5A98;
+    }
+    .fa-clock-o{
+      font-size: 14px;
+      color: grey;
+    }
+    .hour_img{
+     margin-left: 5px;
+     font-size: 14px;
+     color: rgb(77, 75, 75);
+    }
+    .img a{
+      color: black;
+      font-weight: 600;
+      font-size: 18px;
+    }
+    .colleg{
+      width: 350px;
+    }
+    .colleg a{
+      color: black;
+      font-weight: 600;
+      font-size: 18px;
+    }
+    .colleg span{
+      color: rgb(71, 71, 71);
+    }
+    /*===========================================Servicessssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss============================================================================================
+========================================================================================================================================== */
+.head_services{
+  color: #fff;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+#services{
+background-color: #2F2F2F;
+}
+.services_box{
+  padding-bottom: 25px;
+  padding-bottom: 15px;
+}
+.services_box a{
+  padding-left: 15px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+}
+.services_box a:hover{
+  color: #fff;
+}
+.services_box i{
+  color: #fff;
+  font-size: 28px;
+}
+.services_box i:hover{
+ cursor: pointer;
+  color: #fff;
+}
+/*==========================================COOOOOOOOOOLLLLLLLLLLLLLLLLLLLLLLLLL 4============================================================================================
+========================================================================================================================================== */
+.first_box{
+  background-color: #EDEDED;
+}
+.first_box a:hover{
+text-decoration: none;
+}
+.social_box h4{
+  font-weight: 500;
+  color: #404040;
+}
+.social_box li{
+list-style: none;
+display: inline-block;
+}
+.twitter{
+  margin-left: 35px;
+  background-color: #F7F7F7;
+  padding: 10px 45px;
+  border-bottom: #47C7FA 3px solid;
+}
+.twitter a{
+  color: #000;
+}
+.twitter a:hover{
+  text-decoration: none;
+}
+.facebook{
+  background-color: #F7F7F7;
+  padding: 10px 35px;
+  border-bottom: #3C5A98 3px solid;
+}
+.facebook a{
+  color: #000;
+}
+.facebook a:hover{
+  text-decoration: none;
+}
+.first_box a{
+ color: black;
+ padding: 10px;
+ font-weight: 600;
+ font-size: 18px;
+ letter-spacing: 0.3px;
+}
+
+.media_body{
+  margin-left: 5px;
+}
+.media_body a{
+  color: black;
+  font-weight: 700;
+}
+  /*===========================================FOOOOOTTTTTTTEEEEEERRR============================================================================================
+    ========================================================================================================================================== */
+  footer {
+    background-color: #4c4c4c;
+  }
+  .head_footer {
+    color: white;
+    padding-top: 20px;
+  }
+  .div_col a {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .div_col a:hover {
+    color: white;
+  }
+  hr {
+    background-color: white;
+    font-weight: 100;
+  }
+  .list_footer {
+    list-style: none;
+    display: inline-flex;
+  }
+  .list_footer a {
+    color: white;
+    margin-right: 9px;
+    font-size: 13px;
+  }
+  .list_footer a:hover {
+    color: white;
+  }
+  footer p {
+    color: white;
+    font-size: 14px;
+  }
+  footer p span {
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+  }

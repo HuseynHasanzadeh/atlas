@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*=================================================================== HEADER========================================================= */
+/* En bashda stil verecem li ul ve geri qalan shapkalara hamisi burada olacaq */
+#nav_bars {
+  width: 100%;
+
+  display: flex;
+  padding-top: 12px;
+  /* align-items: center; */
+  /* position: fixed; */
+}
+
+.menu_list {
+  display: flex;
+  justify-content: space-around;
+}
+.menu_list ul {
+  list-style: none;
+}
+
+.menu_list ul li {
+  display: inline;
+  /* margin-right: 6px; */
+}
+.menu_list ul li a {
+  color: #333333;
+  text-decoration: none;
+  padding: 10px;
+  letter-spacing: 0.2px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.nav-home:hover {
+  border-bottom: 2px solid #000;
+}
+.nav-news:hover {
+  border-bottom: 2px solid red;
+}
+.nav-sport:hover {
+  border-bottom: 2px solid yellow;
+}
+.nav-reel:hover {
+  border-bottom: 2px solid rgb(77, 77, 247);
+}
+.nav-worklife:hover {
+  border-bottom: 2px solid blue;
+}
+.nav-travel:hover {
+  border-bottom: 2px solid rgb(36, 122, 36);
+}
+.nav-future:hover {
+  border-bottom: 2px solid rgb(0, 40, 86);
+}
+.nav-culture:hover {
+  border-bottom: 2px solid rgb(72, 40, 120);
+}
+.nav-more:hover {
+  border-bottom: 2px solid #000;
+}
+
+.form_navs input {
+  padding-left: 5px;
+  color: #000;
+  outline: none;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: rgb(197, 196, 196);
+}
+.container-fluid {
+  background-color: #bb1919;
+  height: 95px;
+}
+.container-fluid h2 {
+  letter-spacing: 1px;
+  color: #fff;
+  font-size: 46px;
+  font-weight: 400;
+}
+.navs_categories ul li {
+  display: inline-block;
+  list-style: none;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  margin-right: 5px;
+}
+.navs_categories ul li a {
+  color: white;
+  text-decoration: none;
+}
+.navs_categories ul li a:hover {
+  border-bottom: 4px solid #fff;
+}
+
+/*========================================================================== FIRST SECTION  SELECT MAIN=============================================
+    ============================================================================================================================================== */
+.card_big p a { 
+        color: black;
+        font-weight: 700;
+        font-size: 25px;
+      }
+      .card_big p a:hover{
+        color: #3b70ec;
+      }
+      .card_big span a{
+        color: black;
+        font-size: 14px;
+      }
+      .card_big span a:hover{
+        color: #3b70ec;
+      }
+      .card_big i{
+        font-size: 14px;
+      }
+      .hour{
+        font-size: 14px;
+      }
+      
+      .line {
+        background-color: black;
+      } 
+      .card_body_big a{
+        color: black;
+        font-weight: 700;
+        font-size: 14px;
+      }
+      .card_body_big span a{
+        font-size: 13px;
+        font-weight: 400;
+      }
+      .span_big{
+        font-size: 13px;
+        letter-spacing: 0.2px;
+      }
+      .card_body_big i{
+        font-size: 14px;
+      }
+      
+.categories_head {
+  list-style: none;
+}
+.categories_head li{
+  display: flex;
+  display: inline-block;
+}
+.health_h a {
+  color: black;
+  letter-spacing: 0.2px;
+  font-size: 22px;
+}
+.health_h a:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: 3px solid #bb1919;
+}
+.coronav a{
+color: black;
+margin-left: 10px;
+font-weight: 300;
+}
+.coronav a:hover{
+  color: black;
+  text-decoration: none;
+  border-bottom:  3px solid #bb1919;
+  }
+  /*========================================================================== SECTION Feature =============================================================================
+  ============================================================================================================================================== ====================*/
+.explained_card a{
+  color: black;
+  font-weight: 500;
+}
+/*========================================================================== SECTION MEDIA =============================================================================
+  ============================================================================================================================================== ====================*/
+.button_media {
+  background-color: white;
+
+  border: 1px solid rgb(175, 173, 173);
+  color: black;
+  padding: 3px 10px;
+  font-weight: 500;
+}
+.button_media i {
+  color: black;
+}
+.button_media a {
+  color: black;
+}
+h6 a {
+  color: black;
+  font-weight: 700;
+}
+span {
+  padding-top: 10px;
+}
+h6 {
+  padding-top: 5px;
+}
+h6 a {
+  font-weight: 700;
+  font-size: 18px;
+}
+.text p {
+  font-weight: 500;
+}
+iframe {
+  border: none;
+}
+.iframe_text {
+  font-weight: 600;
+  color: rgb(48, 48, 48);
+}
+.show_more {
+  background-color: rgb(190, 190, 190);
+  width: 550px;
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 5px;
+}
+.show_more:hover {
+  background-color: rgb(143, 142, 142);
+}
+.show_more a {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+.show_more a:hover {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.text_info a {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+/*========================================================================== SECTION AROUND =============================================================================
+  ============================================================================================================================================== ====================*/
+.card_around span a {
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+}
+.card_around a {
+  color: black;
+  font-weight: 500;
+}
+.card_around a:hover {
+  color: rgb(62, 137, 250);
+}
+.card_iframe a {
+  color: black;
+}
+.card_iframe a:hover {
+  color: rgb(62, 137, 250);
+}
+/*===========================================Find us here============================================================================================
+========================================================================================================================================== */
+.twitter i {
+  font-size: 35px;
+  padding: 15px;
+  color: rgb(55, 215, 243);
+}
+
+.twitter i:hover {
+  background-color: rgb(55, 215, 243);
+  color: #fff;
+  cursor: pointer;
+  width: 60px;
+  border-radius: 8px;
+  height: 60px;
+  transition: 0.3s ease-in-out;
+}
+.facebook i {
+  font-size: 35px;
+  padding: 15px 20px;
+  color: rgb(14, 10, 240);
+}
+.facebook i:hover {
+  background-color: rgb(14, 10, 240);
+  color: #fff;
+  cursor: pointer;
+  width: 60px;
+  border-radius: 8px;
+  height: 60px;
+  transition: 0.3s ease-in-out;
+}
+.instagram i {
+  font-size: 35px;
+  padding: 15px 15px;
+  color: #d93175;
+}
+
+.instagram i:hover {
+  background-color: #d93175;
+  color: #fff;
+  cursor: pointer;
+  width: 60px;
+  border-radius: 8px;
+  height: 60px;
+  transition: 0.3s ease-in-out;
+}
+.news_daily h5 {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+.news_daily i {
+  font-size: 25px;
+  color: rgb(99, 97, 97);
+}
+.news_daily h5 span {
+  font-weight: 300;
+  letter-spacing: 0.2px;
+}
+.news_daily a {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+.news_app h5 {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+.news_app i {
+  font-size: 21px;
+  color: rgb(99, 97, 97);
+}
+.news_app a {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+.news_app h5 span {
+  font-weight: 300;
+  letter-spacing: 0.2px;
+}
+.news_info {
+  font-size: 14px;
+}
+.news_info a {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+.news_info span {
+  font-weight: 600;
+}
+/*===========================================Servicessssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss============================================================================================
+========================================================================================================================================== */
+.head_services {
+  color: #fff;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+#services {
+  background-color: #2f2f2f;
+}
+.services_box {
+  padding-bottom: 25px;
+  padding-bottom: 15px;
+}
+.services_box a {
+  padding-left: 15px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+}
+.services_box a:hover {
+  color: #fff;
+}
+.services_box i {
+  color: #fff;
+  font-size: 28px;
+}
+.services_box i:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+/*===========================================FOOOOOTTTTTTTEEEEEERRR============================================================================================
+========================================================================================================================================== */
+footer {
+  background-color: #4c4c4c;
+}
+.head_footer {
+  color: white;
+  padding-top: 20px;
+}
+.div_col a {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+.div_col a:hover {
+  color: white;
+}
+hr {
+  background-color: white;
+  font-weight: 100;
+}
+.list_footer {
+  list-style: none;
+  display: inline-flex;
+}
+.list_footer a {
+  color: white;
+  margin-right: 9px;
+  font-size: 13px;
+}
+.list_footer a:hover {
+  color: white;
+}
+footer p {
+  color: white;
+  font-size: 14px;
+}
+footer p span {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}

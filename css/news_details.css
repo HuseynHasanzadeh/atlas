@@ -1,0 +1,544 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*=================================================================== HEADER========================================================= */
+/* En bashda stil verecem li ul ve geri qalan shapkalara hamisi burada olacaq */
+#nav_bars {
+  width: 100%;
+
+  display: flex;
+  padding-top: 12px;
+  /* align-items: center; */
+  /* position: fixed; */
+}
+
+.menu_list {
+  display: flex;
+  justify-content: space-around;
+}
+.menu_list ul {
+  list-style: none;
+}
+
+.menu_list ul li {
+  display: inline;
+  /* margin-right: 6px; */
+}
+.menu_list ul li a {
+  color: #333333;
+  text-decoration: none;
+  padding: 10px;
+  letter-spacing: 0.2px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.nav-home:hover {
+  border-bottom: 2px solid #000;
+}
+.nav-news:hover {
+  border-bottom: 2px solid red;
+}
+.nav-sport:hover {
+  border-bottom: 2px solid yellow;
+}
+.nav-reel:hover {
+  border-bottom: 2px solid rgb(77, 77, 247);
+}
+.nav-worklife:hover {
+  border-bottom: 2px solid blue;
+}
+.nav-travel:hover {
+  border-bottom: 2px solid rgb(36, 122, 36);
+}
+.nav-future:hover {
+  border-bottom: 2px solid rgb(0, 40, 86);
+}
+.nav-culture:hover {
+  border-bottom: 2px solid rgb(72, 40, 120);
+}
+.nav-more:hover {
+  border-bottom: 2px solid #000;
+}
+
+.form_navs input {
+  padding-left: 5px;
+  color: #000;
+  outline: none;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: rgb(197, 196, 196);
+}
+.container-fluid {
+  background-color: #bb1919;
+  height: 95px;
+}
+.container-fluid h2 {
+  letter-spacing: 1px;
+  color: #fff;
+  font-size: 46px;
+  font-weight: 400;
+}
+.navs_categories ul li {
+  display: inline-block;
+  list-style: none;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  margin-right: 5px;
+}
+.navs_categories ul li a {
+  color: white;
+  text-decoration: none;
+}
+.navs_categories ul li a:hover {
+  border-bottom: 4px solid #fff;
+}
+/* =========================================================================================================================================
+        ==========================================SeCTION ONE MOOOOORRRREEE DETAILS==============================================================
+        ======================================================================================================================================= */
+.head_news a {
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.head_news a:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: 3px solid #bb1919;
+}
+.details_main h5 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.details_m i {
+  color: gray;
+  font-size: 14px;
+}
+.details_m span {
+  color: rgb(48, 47, 47);
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.social_list li {
+  list-style: none;
+  margin-left: 6px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+ .fa-facebook-messenger {
+  padding: 10px 10px;
+  color: #0084ff;
+}
+ .fa-facebook-messenger:hover {
+  color: #fff;
+}
+.fa-facebook-f {
+  padding: 13px 13px;
+  color: #3b5998;
+}
+.fa-facebook-f:hover {
+  color: #fff;
+}
+.fa-twitter {
+  padding: 10px 10px;
+  color: #1da1f2;
+}
+ .fa-twitter:hover {
+  color: #fff;
+}
+ .fa-envelope {
+  padding: 10px 10px;
+  color: #615f5d;
+}
+.fa-envelope:hover {
+  color: #fff;
+}
+ .fa-share-alt {
+  padding: 10px 10px;
+  color: #0b8a0b;
+}
+.fa-share-alt:hover {
+  color: #fff;
+}
+ .messenger:hover {
+  background-color: #0084ff;
+}
+.facebook:hover {
+  background-color: #3b5998;
+}
+.twitter:hover {
+  background-color: #1da1f2;
+}
+.mail:hover {
+  background-color: #615f5d;
+}
+.share:hover {
+  background-color: #0b8a0b;
+}
+.social_list i {
+  font-size: 18px;
+}
+.video_box iframe{
+    border: none;
+}
+.video_text{
+    letter-spacing: 0.2px;
+    line-height: 30px;
+    color: rgb(85, 84, 84);
+}
+.video_text strong{
+    color: rgb(71, 71, 71);
+}
+.video_box h4{
+    font-weight: 400;
+}
+.but{
+    color: black;
+    border: 1px solid rgb(192, 192, 192);
+    padding: 6px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.but:hover{
+    text-decoration: none;
+    color: #fff;
+    background: #3b5998;
+}
+.socical_share h5{
+    color: #404040;
+    font-weight: 600;
+}
+.social_share li{
+   list-style: none;
+   display: inline;
+   margin: 5px;
+}
+.social_share i{
+    color: #fff;
+}
+.email{
+    background-color: #615F5D;
+    padding: 3px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.email i{
+    font-size: 30px;
+}
+.face{
+    background-color: #3C5A98;
+    padding: 3px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.face i{
+    font-size: 25px;
+}
+.mess{
+    background-color: #0084FF;
+    padding: 3px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.mess i{
+    font-size: 27px;
+}
+.linkedin{
+    background-color: #0077B5;
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.linkedin i{
+    font-size: 25px;
+}
+.pinterest{
+    background-color: #BC071C;
+    padding: 3px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.pinterest i{
+    font-size: 27px;
+}
+.twit{
+    background-color: #47C7FA;
+    padding: 3px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.twit i{
+    font-size: 27px;
+}
+/* ================================================================================================================================= 
+      =======================================================================SECTIONE Can trust================================================
+    ============================================================================================================================ */
+    #can_trust{
+        background-color: #F2EFEC;
+        padding: 25px;
+        margin-top: 15px;
+    }
+    .head_why a{
+        color: black;
+        padding-left: 5px;
+        font-size: 19px;
+        font-weight: 500;
+    }
+    .head_why i{
+        font-size: 20px;
+    }
+    /* ================================================================================================================================= 
+      =======================================================================SECTIONE More istory================================================
+    ============================================================================================================================ */
+    .head_h{
+        color: #404040;
+        font-weight: 700;
+    }
+    .story a{
+        color:black;
+font-weight: 600;
+    }
+    .story span{
+        color: #404040;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .story a:hover{
+text-decoration: none;
+    }
+    .us_canada h5 a{
+        color: black;
+        letter-spacing: 0.6px;
+    }
+    .us_canada h5 a:hover{
+        color: #0084FF;
+    }
+    .us_canada i{
+        color: #CE0C0C;
+    }
+    .card_body_big a{
+        color: black;
+        font-weight: 500;
+    }
+    .hour{
+        color: gray;
+        font-size: 13px;
+    }
+    .card_body_big i{
+        color: gray;
+    }
+    .card_body_big span a{
+        color: #A61B1B;
+        font-weight: 400;
+        font-size: 13px;
+        margin-left: 25px;
+    }.video_more{
+        width: 220px;
+    }
+    .video_more a{
+        color: black;
+        font-weight: 700;
+    }
+    .video_more iframe{
+        border: none;
+    }
+    .news_card a{
+       color:#BB2F37;
+    }
+    .news_card a:hover{
+        color:#BB2F37;
+     }
+     .news_card span a{
+         color: black;
+         font-weight: 700;
+     }
+     .news_card span a:hover{
+        color: #0084FF;
+        font-weight: 700;
+    }
+    .media_body{
+        padding-left: 15px ;
+    }
+    .media_body a{
+        color:black;
+        font-weight: 700;
+    }
+    .media_body span{
+        color: grey;
+        font-weight: 300;
+    }
+   
+    /*===========================================Top stOOOOOORIIIESSSS============================================================================================
+========================================================================================================================================== */
+.top_stories{
+    background-color: #EDEDED;
+    padding: 15px;
+}
+.top_stories h5{
+    font-weight: 400;
+}
+.top_stories i{
+    color:#989898;
+}
+.top_stories a{
+    color: black;
+    font-weight: 700;
+}
+.features_top{
+    background-color: #EDEDED;
+    padding: 15px;
+}
+.features_top h5{
+    font-weight: 400;
+}
+.features_news iframe{
+border: none;
+}
+.features_top a{
+color: black;
+font-weight: 600;
+}
+.else_med{
+    background-color: #EDEDED;
+    padding: 15px;
+}
+.else_med span{
+    font-weight: 300;
+}
+/* ===============================================================================================================================================
+==================================================MOST READ===================================================================================== */
+.heading{
+  background-color: #EDEDED;
+  padding: 10px;
+}
+.heading h4{
+  color: #404040;
+  letter-spacing: 0.3px;
+  font-weight: 400;
+}
+.list_most{
+  padding: 10px;
+}
+.number{
+float: right;
+margin-top: -25px;
+font-size: 24px;
+color: #BB1919;
+font-weight: 500;
+}
+.list_most li{
+  list-style: none;
+}
+.list_most a:hover{
+  text-decoration: none;
+  
+}
+.text_most{
+  width: 82%;
+  color: black
+}
+.text_most:hover{
+  color: #0084ff;
+}
+/* .list{
+  padding:10px;
+  
+}
+.link_most a{
+color: black
+}
+.link_most a:hover{
+ text-decoration: none;
+  }
+.number span{
+  color: #BB1919;
+  font-size: 24px;
+  font-weight: 500;  
+}
+.div span{
+  float: right;
+  font-size: 36px;
+  margin-top: -5px;
+}
+.div li{
+  list-style: none;
+} */
+    /*===========================================Servicessssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss============================================================================================
+========================================================================================================================================== */
+.head_services{
+    color: #fff;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    padding-top: 15px;
+  }
+  #services{
+  background-color: #2F2F2F;
+  }
+  .services_box{
+    padding-bottom: 25px;
+    padding-bottom: 15px;
+  }
+  .services_box a{
+    padding-left: 15px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .services_box a:hover{
+    color: #fff;
+  }
+  .services_box i{
+    color: #fff;
+    font-size: 28px;
+  }
+  .services_box i:hover{
+   cursor: pointer;
+    color: #fff;
+  }
+  
+/*===========================================FOOOOOTTTTTTTEEEEEERRR============================================================================================
+  ========================================================================================================================================== */
+footer {
+  background-color: #4c4c4c;
+}
+.head_footer {
+  color: white;
+  padding-top: 20px;
+}
+.div_col a {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+.div_col a:hover {
+  color: white;
+}
+hr {
+  background-color: white;
+  font-weight: 100;
+}
+.list_footer {
+  list-style: none;
+  display: inline-flex;
+}
+.list_footer a {
+  color: white;
+  margin-right: 9px;
+  font-size: 13px;
+}
+.list_footer a:hover {
+  color: white;
+}
+footer p {
+  color: white;
+  font-size: 14px;
+}
+footer p span {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}

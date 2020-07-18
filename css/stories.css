@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*=================================================================== HEADER========================================================= */
+/* En bashda stil verecem li ul ve geri qalan shapkalara hamisi burada olacaq */
+#nav_bars {
+  width: 100%;
+
+  display: flex;
+  padding-top: 12px;
+  /* align-items: center; */
+  /* position: fixed; */
+}
+
+.menu_list {
+  display: flex;
+  justify-content: space-around;
+}
+.menu_list ul {
+  list-style: none;
+}
+
+.menu_list ul li {
+  display: inline;
+  /* margin-right: 6px; */
+}
+.menu_list ul li a {
+  color: #333333;
+  text-decoration: none;
+  padding: 10px;
+  letter-spacing: 0.2px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.nav-home:hover {
+  border-bottom: 2px solid #000;
+}
+.nav-news:hover {
+  border-bottom: 2px solid red;
+}
+.nav-sport:hover {
+  border-bottom: 2px solid yellow;
+}
+.nav-reel:hover {
+  border-bottom: 2px solid rgb(77, 77, 247);
+}
+.nav-worklife:hover {
+  border-bottom: 2px solid blue;
+}
+.nav-travel:hover {
+  border-bottom: 2px solid rgb(36, 122, 36);
+}
+.nav-future:hover {
+  border-bottom: 2px solid rgb(0, 40, 86);
+}
+.nav-culture:hover {
+  border-bottom: 2px solid rgb(72, 40, 120);
+}
+.nav-more:hover {
+  border-bottom: 2px solid #000;
+}
+
+.form_navs input {
+  padding-left: 5px;
+  color: #000;
+  outline: none;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: rgb(197, 196, 196);
+}
+.container-fluid {
+  background-color: #bb1919;
+  height: 95px;
+}
+.container-fluid h2 {
+  letter-spacing: 1px;
+  color: #fff;
+  font-size: 46px;
+  font-weight: 400;
+}
+.navs_categories ul li {
+  display: inline-block;
+  list-style: none;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  margin-right: 5px;
+}
+.navs_categories ul li a {
+  color: white;
+  text-decoration: none;
+}
+.navs_categories ul li a:hover {
+  border-bottom: 4px solid #fff;
+}
+
+/*===========================================FOOOOOTTTTTTTEEEEEERRR============================================================================================
+  ========================================================================================================================================== */
+footer {
+  background-color: #4c4c4c;
+}
+.head_footer {
+  color: white;
+  padding-top: 20px;
+}
+.div_col a {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+.div_col a:hover {
+  color: white;
+}
+hr {
+  background-color: white;
+  font-weight: 100;
+}
+.list_footer {
+  list-style: none;
+  display: inline-flex;
+}
+.list_footer a {
+  color: white;
+  margin-right: 9px;
+  font-size: 13px;
+}
+.list_footer a:hover {
+  color: white;
+}
+footer p {
+  color: white;
+  font-size: 14px;
+}
+footer p span {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+/* ====-=====================================================STORIES SECTION ONE==-===========================================================]
+    ================================================================================================================================ */
+.stories_head {
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+.video_box {
+  width: 450px;
+}
+.video_box iframe {
+  border: none;
+}
+
+.video_box a {
+  font-weight: 500;
+  font-size: 24px;
+  color: black;
+}
+
+.box {
+  width: 210px;
+}
+.box iframe {
+  border: none;
+}
+.box a {
+  color: black;
+  font-weight: 500;
+}
+.under_box a {
+  color: #404040;
+  font-size: 32px;
+  font-weight: 500;
+}
+.hour {
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 5px;
+  color: #404040;
+}
+.under_box i {
+    color: #404040;
+  font-size: 14px;
+}
+.under_box iframe{
+    border: none;
+}
+.categ a{
+    color: #404040;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.line{
+    background-color: black;
+}
+
+/* ====-=====================================================MUST SEEEE==-===========================================================]
+    ================================================================================================================================ */
+    .see{
+        width: 220px;
+    }
+    .see a{
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    /* ====-=====================================================Long reads==-===========================================================]
+    ================================================================================================================================ */
+    .read{
+        width: 220px;
+    }
+    .read a{
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+    }
